@@ -1,0 +1,9 @@
+|1-2-1
+f <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+y => inst.IN0
+x => inst5.IN0
+x => inst4.IN0
+z => inst7.IN0
+z => inst4.IN2
+
+

@@ -1,0 +1,5 @@
+|1-2-3
+f <= inst.DB_MAX_OUTPUT_PORT_TYPE
+y => inst.IN0
+
+

@@ -1,0 +1,11 @@
+|1-1-2
+and2_output <= inst.DB_MAX_OUTPUT_PORT_TYPE
+c => inst1.IN0
+c => inst2.IN1
+b => inst1.IN1
+b => inst2.IN0
+a => inst.IN1
+a => inst2.IN2
+and3_output <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
