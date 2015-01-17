@@ -5,7 +5,7 @@ the Block Editor! File corruption is VERY likely to occur.
 */
 
 /*
-Copyright (C) 1991-2009 Altera Corporation
+Copyright (C) 1991-2010 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -20,13 +20,13 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 
-VECTOR("E:/2CS_èÓïÒçHäwé¿å±/232/1-3-after/db/1-3-after.sim.cvwf")
+VECTOR("Z:/00_Dev/2CS_Experiment-logic/232/1-3-after/db/1-3-after.sim.cvwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 1000000000;
-		NUMERATOR = 1162;
-		DENOMINATOR = 1000000000;
+		ZEND = 688124306;
+		NUMERATOR = 1802;
+		DENOMINATOR = 688124306;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
@@ -46,24 +46,8 @@ VECTOR("E:/2CS_èÓïÒçHäwé¿å±/232/1-3-after/db/1-3-after.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "y";
-		INDEX = 1;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "z";
-		INDEX = 2;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "f";
-		INDEX = 3;
+		INDEX = 1;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -71,12 +55,12 @@ VECTOR("E:/2CS_èÓïÒçHäwé¿å±/232/1-3-after/db/1-3-after.sim.cvwf")
 	}
 }
 
-VECTOR("E:/2CS_èÓïÒçHäwé¿å±/232/1-3-after/1-3-after.vwf")
+VECTOR("Z:/00_Dev/2CS_Experiment-logic/232/1-3-after/1-3-after.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
 		ZEND = 1000000000;
-		NUMERATOR = 1367;
+		NUMERATOR = 2007;
 		DENOMINATOR = 1000000000;
 		TOP_INDEX = 0;
 	}
@@ -97,24 +81,8 @@ VECTOR("E:/2CS_èÓïÒçHäwé¿å±/232/1-3-after/1-3-after.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "y";
-		INDEX = 1;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "z";
-		INDEX = 2;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "f";
-		INDEX = 3;
+		INDEX = 1;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

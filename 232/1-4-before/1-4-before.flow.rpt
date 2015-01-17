@@ -1,5 +1,5 @@
 Flow report for 1-4-before
-Fri Jan 16 18:55:58 2015
+Sat Jan 17 15:21:04 2015
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +------------------------------------+----------------------------------------------+
-; Flow Status                        ; Successful - Fri Jan 16 18:55:58 2015        ;
+; Flow Status                        ; Successful - Sat Jan 17 15:21:04 2015        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; 1-4-before                                   ;
 ; Top-level Entity Name              ; 1-4-before                                   ;
@@ -63,24 +63,24 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/16/2015 18:55:49 ;
+; Start date & time ; 01/17/2015 15:20:58 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; 1-4-before          ;
 +-------------------+---------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                    ;
-+------------------------------------+---------------------------------+---------------+-------------+----------------+
-; Assignment Name                    ; Value                           ; Default Value ; Entity Name ; Section Id     ;
-+------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 119169993324035.142140214903564 ; --            ; --          ; --             ;
-; MAX_CORE_JUNCTION_TEMP             ; 125                             ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP             ; -40                             ; --            ; --          ; --             ;
-; PARTITION_COLOR                    ; 16764057                        ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                          ; --            ; --          ; Top            ;
-; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                             ; --            ; --          ; eda_blast_fpga ;
-+------------------------------------+---------------------------------+---------------+-------------+----------------+
++------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                 ;
++------------------------------------+------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                        ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 121375403093.142147565704024 ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 125                          ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; -40                          ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                     ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                       ; --            ; --          ; Top            ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                          ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+------------------------------+---------------+-------------+----------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------+
@@ -88,11 +88,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 202 MB              ; 00:00:01                           ;
-; Fitter                  ; 00:00:02     ; 1.0                     ; 211 MB              ; 00:00:01                           ;
-; Assembler               ; 00:00:01     ; 1.0                     ; 193 MB              ; 00:00:00                           ;
-; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 157 MB              ; 00:00:00                           ;
-; Total                   ; 00:00:04     ; --                      ; --                  ; 00:00:02                           ;
+; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 203 MB              ; 00:00:01                           ;
+; Fitter                  ; 00:00:02     ; 1.0                     ; 211 MB              ; 00:00:02                           ;
+; Assembler               ; 00:00:01     ; 1.0                     ; 193 MB              ; 00:00:01                           ;
+; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 154 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:04     ; --                      ; --                  ; 00:00:04                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -101,10 +101,10 @@ applicable agreement for further details.
 +-------------------------+------------------+---------------+------------+----------------+
 ; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
 +-------------------------+------------------+---------------+------------+----------------+
-; Analysis & Synthesis    ; GPGPU            ; Windows Vista ; 6.1        ; x86_64         ;
-; Fitter                  ; GPGPU            ; Windows Vista ; 6.1        ; x86_64         ;
-; Assembler               ; GPGPU            ; Windows Vista ; 6.1        ; x86_64         ;
-; Classic Timing Analyzer ; GPGPU            ; Windows Vista ; 6.1        ; x86_64         ;
+; Analysis & Synthesis    ; Helstrome-win    ; Windows Vista ; 6.1        ; x86_64         ;
+; Fitter                  ; Helstrome-win    ; Windows Vista ; 6.1        ; x86_64         ;
+; Assembler               ; Helstrome-win    ; Windows Vista ; 6.1        ; x86_64         ;
+; Classic Timing Analyzer ; Helstrome-win    ; Windows Vista ; 6.1        ; x86_64         ;
 +-------------------------+------------------+---------------+------------+----------------+
 
 
