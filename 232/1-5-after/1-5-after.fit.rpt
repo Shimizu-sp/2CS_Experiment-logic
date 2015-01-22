@@ -1,5 +1,5 @@
 Fitter report for 1-5-after
-Tue Jan 20 20:58:07 2015
+Thu Jan 22 19:25:18 2015
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -58,7 +58,7 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                    ;
 +------------------------------------+----------------------------------------------+
-; Fitter Status                      ; Successful - Tue Jan 20 20:58:07 2015        ;
+; Fitter Status                      ; Successful - Thu Jan 22 19:25:18 2015        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; 1-5-after                                    ;
 ; Top-level Entity Name              ; 1-5-after                                    ;
@@ -177,7 +177,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experiment-logic/232/1-5-after/1-5-after.pin.
+The pin-out file can be found in C:/Users/shimizu/Documents/2CS_Experiment-logic/232/1-5-after/1-5-after.pin.
 
 
 +-------------------------------------------------------------------+
@@ -238,8 +238,8 @@ The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experimen
 ; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Location assigned by ;
 +------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 ; b    ; C1    ; 1        ; 0            ; 13           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; c    ; C2    ; 1        ; 0            ; 13           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; d    ; D5    ; 1        ; 0            ; 13           ; 4           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; c    ; D5    ; 1        ; 0            ; 13           ; 4           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; d    ; C2    ; 1        ; 0            ; 13           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 +------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 
 
@@ -302,7 +302,7 @@ The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experimen
 ; B15      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; B16      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; C1       ; 2          ; 1        ; b                                        ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; C2       ; 3          ; 1        ; c                                        ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; C2       ; 3          ; 1        ; d                                        ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; C3       ; 0          ; 1        ; ~ASDO~ / RESERVED_INPUT_WITH_WEAK_PULLUP ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; On           ;
 ; C4       ; 161        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C5       ; 160        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -321,7 +321,7 @@ The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experimen
 ; D2       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; D3       ; 8          ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; D4       ; 9          ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; D5       ; 4          ; 1        ; d                                        ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; D5       ; 4          ; 1        ; c                                        ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; D6       ; 158        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; D7       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; D8       ; 153        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -582,8 +582,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ;
 +------+----------+---------------+---------------+-----------------------+-----+
 ; f    ; Output   ; --            ; --            ; --                    ; --  ;
-; c    ; Input    ; (6) 4510 ps   ; (6) 4510 ps   ; --                    ; --  ;
 ; d    ; Input    ; (6) 4510 ps   ; (6) 4510 ps   ; --                    ; --  ;
+; c    ; Input    ; (6) 4510 ps   ; (6) 4510 ps   ; --                    ; --  ;
 ; b    ; Input    ; (6) 4510 ps   ; (6) 4510 ps   ; --                    ; --  ;
 +------+----------+---------------+---------------+-----------------------+-----+
 
@@ -593,9 +593,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------+-------------------+---------+
 ; Source Pin / Fanout ; Pad To Core Index ; Setting ;
 +---------------------+-------------------+---------+
-; c                   ;                   ;         ;
-;      - inst~0       ; 0                 ; 6       ;
 ; d                   ;                   ;         ;
+;      - inst~0       ; 0                 ; 6       ;
+; c                   ;                   ;         ;
 ;      - inst~0       ; 1                 ; 6       ;
 ; b                   ;                   ;         ;
 ;      - inst~0       ; 1                 ; 6       ;
@@ -608,8 +608,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name   ; Fan-Out                ;
 +--------+------------------------+
 ; b      ; 1                      ;
-; d      ; 1                      ;
 ; c      ; 1                      ;
+; d      ; 1                      ;
 ; inst~0 ; 1                      ;
 +--------+------------------------+
 
@@ -728,7 +728,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Jan 20 20:58:05 2015
+    Info: Processing started: Thu Jan 22 19:25:16 2015
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off 1-5-after -c 1-5-after
 Info: Selected device EP2C5AF256A7 for design "1-5-after"
 Info: Low junction temperature is -40 degrees C
@@ -743,8 +743,8 @@ Info: Fitter converted 3 user pins into dedicated programming pins
     Info: Pin ~LVDS41p/nCEO~ is reserved at location N14
 Critical Warning: No exact pin location assignment(s) for 4 pins of 4 total pins
     Info: Pin f not assigned to an exact location on the device
-    Info: Pin c not assigned to an exact location on the device
     Info: Pin d not assigned to an exact location on the device
+    Info: Pin c not assigned to an exact location on the device
     Info: Pin b not assigned to an exact location on the device
 Info: Timing-driven compilation is using the Classic Timing Analyzer
 Info: Timing requirements not specified -- quality metrics such as performance and power consumption may be sacrificed to reduce compilation time.
@@ -786,8 +786,8 @@ Info: Delay annotation completed successfully
 Warning: The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info: Quartus II Fitter was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 229 megabytes
-    Info: Processing ended: Tue Jan 20 20:58:07 2015
+    Info: Processing ended: Thu Jan 22 19:25:18 2015
     Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 
