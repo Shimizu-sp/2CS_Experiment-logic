@@ -1,5 +1,5 @@
 Analysis & Synthesis report for 1-5-before
-Tue Jan 20 20:49:03 2015
+Thu Jan 22 16:49:10 2015
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +------------------------------------+----------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Jan 20 20:49:03 2015        ;
+; Analysis & Synthesis Status        ; Successful - Thu Jan 22 16:49:10 2015        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; 1-5-before                                   ;
 ; Top-level Entity Name              ; 1-5-before                                   ;
@@ -49,7 +49,7 @@ applicable agreement for further details.
 ;     Total combinational functions  ; 1                                            ;
 ;     Dedicated logic registers      ; 0                                            ;
 ; Total registers                    ; 0                                            ;
-; Total pins                         ; 5                                            ;
+; Total pins                         ; 6                                            ;
 ; Total virtual pins                 ; 0                                            ;
 ; Total memory bits                  ; 0                                            ;
 ; Embedded Multiplier 9-bit elements ; 0                                            ;
@@ -147,13 +147,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                         ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                         ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------+
-; 1-5-before.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/shimizu/Documents/GitHub/2CS_Experiment-logic/232/1-5-before/1-5-before.bdf ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                  ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                  ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------+
+; 1-5-before.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/shimizu/Documents/2CS_Experiment-logic/232/1-5-before/1-5-before.bdf ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -177,11 +177,11 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;     -- Dedicated logic registers            ; 0      ;
 ;     -- I/O registers                        ; 0      ;
 ;                                             ;        ;
-; I/O pins                                    ; 5      ;
+; I/O pins                                    ; 6      ;
 ; Maximum fan-out node                        ; inst~0 ;
-; Maximum fan-out                             ; 1      ;
-; Total fan-out                               ; 4      ;
-; Average fan-out                             ; 0.67   ;
+; Maximum fan-out                             ; 2      ;
+; Total fan-out                               ; 5      ;
+; Average fan-out                             ; 0.71   ;
 +---------------------------------------------+--------+
 
 
@@ -190,7 +190,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |1-5-before                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 5    ; 0            ; |1-5-before         ; work         ;
+; |1-5-before                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 6    ; 0            ; |1-5-before         ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -216,22 +216,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Jan 20 20:49:02 2015
+    Info: Processing started: Thu Jan 22 16:49:10 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off 1-5-before -c 1-5-before
 Info: Found 1 design units, including 1 entities, in source file 1-5-before.bdf
     Info: Found entity 1: 1-5-before
 Info: Elaborating entity "1-5-before" for the top level hierarchy
-Warning: Primitive "NOT" of instance "inst12" not used
 Warning: Design contains 1 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "a"
-Info: Implemented 6 device resources after synthesis - the final resource count might be different
+Info: Implemented 7 device resources after synthesis - the final resource count might be different
     Info: Implemented 4 input pins
-    Info: Implemented 1 output pins
+    Info: Implemented 2 output pins
     Info: Implemented 1 logic cells
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 3 warnings
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 208 megabytes
-    Info: Processing ended: Tue Jan 20 20:49:03 2015
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Thu Jan 22 16:49:10 2015
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -1,4 +1,4 @@
-Fitter Status : Successful - Tue Jan 20 20:49:05 2015
+Fitter Status : Successful - Thu Jan 22 16:49:13 2015
 Quartus II Version : 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition
 Revision Name : 1-5-before
 Top-level Entity Name : 1-5-before
@@ -9,7 +9,7 @@ Total logic elements : 1 / 4,608 ( < 1 % )
     Total combinational functions : 1 / 4,608 ( < 1 % )
     Dedicated logic registers : 0 / 4,608 ( 0 % )
 Total registers : 0
-Total pins : 5 / 158 ( 3 % )
+Total pins : 6 / 158 ( 4 % )
 Total virtual pins : 0
 Total memory bits : 0 / 119,808 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )

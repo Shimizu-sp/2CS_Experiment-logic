@@ -1,5 +1,5 @@
 Fitter report for 1-5-before
-Tue Jan 20 20:49:05 2015
+Thu Jan 22 16:49:14 2015
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -58,7 +58,7 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                    ;
 +------------------------------------+----------------------------------------------+
-; Fitter Status                      ; Successful - Tue Jan 20 20:49:05 2015        ;
+; Fitter Status                      ; Successful - Thu Jan 22 16:49:13 2015        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; 1-5-before                                   ;
 ; Top-level Entity Name              ; 1-5-before                                   ;
@@ -69,7 +69,7 @@ applicable agreement for further details.
 ;     Total combinational functions  ; 1 / 4,608 ( < 1 % )                          ;
 ;     Dedicated logic registers      ; 0 / 4,608 ( 0 % )                            ;
 ; Total registers                    ; 0                                            ;
-; Total pins                         ; 5 / 158 ( 3 % )                              ;
+; Total pins                         ; 6 / 158 ( 4 % )                              ;
 ; Total virtual pins                 ; 0                                            ;
 ; Total memory bits                  ; 0 / 119,808 ( 0 % )                          ;
 ; Embedded Multiplier 9-bit elements ; 0 / 26 ( 0 % )                               ;
@@ -147,8 +147,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Type                    ; Value              ;
 +-------------------------+--------------------+
 ; Placement               ;                    ;
-;     -- Requested        ; 0 / 10 ( 0.00 % )  ;
-;     -- Achieved         ; 0 / 10 ( 0.00 % )  ;
+;     -- Requested        ; 0 / 11 ( 0.00 % )  ;
+;     -- Achieved         ; 0 / 11 ( 0.00 % )  ;
 ;                         ;                    ;
 ; Routing (by Connection) ;                    ;
 ;     -- Requested        ; 0 / 0 ( 0.00 % )   ;
@@ -170,14 +170,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------+---------+-------------------+-------------------------+-------------------+
 ; Partition Name ; # Nodes ; # Preserved Nodes ; Preservation Level Used ; Netlist Type Used ;
 +----------------+---------+-------------------+-------------------------+-------------------+
-; Top            ; 10      ; 0                 ; N/A                     ; Source File       ;
+; Top            ; 11      ; 0                 ; N/A                     ; Source File       ;
 +----------------+---------+-------------------+-------------------------+-------------------+
 
 
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experiment-logic/232/1-5-before/1-5-before.pin.
+The pin-out file can be found in C:/Users/shimizu/Documents/2CS_Experiment-logic/232/1-5-before/1-5-before.pin.
 
 
 +-------------------------------------------------------------------+
@@ -207,7 +207,7 @@ The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experimen
 ; Total LABs:  partially or completely used   ; 1 / 288 ( < 1 % )   ;
 ; User inserted logic elements                ; 0                   ;
 ; Virtual pins                                ; 0                   ;
-; I/O pins                                    ; 5 / 158 ( 3 % )     ;
+; I/O pins                                    ; 6 / 158 ( 4 % )     ;
 ;     -- Clock pins                           ; 0 / 4 ( 0 % )       ;
 ; Global signals                              ; 0                   ;
 ; M4Ks                                        ; 0 / 26 ( 0 % )      ;
@@ -222,11 +222,11 @@ The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experimen
 ; Average interconnect usage (total/H/V)      ; 0% / 0% / 0%        ;
 ; Peak interconnect usage (total/H/V)         ; 0% / 0% / 0%        ;
 ; Maximum fan-out node                        ; inst~0              ;
-; Maximum fan-out                             ; 1                   ;
+; Maximum fan-out                             ; 2                   ;
 ; Highest non-global fan-out signal           ; inst~0              ;
-; Highest non-global fan-out                  ; 1                   ;
-; Total fan-out                               ; 4                   ;
-; Average fan-out                             ; 0.44                ;
+; Highest non-global fan-out                  ; 2                   ;
+; Total fan-out                               ; 5                   ;
+; Average fan-out                             ; 0.50                ;
 +---------------------------------------------+---------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -237,20 +237,21 @@ The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experimen
 +------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 ; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Location assigned by ;
 +------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
-; a    ; C2    ; 1        ; 0            ; 13           ; 3           ; 0                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; b    ; E5    ; 1        ; 0            ; 12           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; c    ; G11   ; 2        ; 19           ; 14           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; d    ; E3    ; 1        ; 0            ; 12           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; a    ; B14   ; 2        ; 26           ; 14           ; 0           ; 0                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; b    ; E3    ; 1        ; 0            ; 12           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; c    ; G6    ; 2        ; 7            ; 14           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; d    ; F3    ; 1        ; 0            ; 11           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 +------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Output Pins                                                                                                                                                                                                                                                                                                                        ;
-+------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
-; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Output Register ; Output Enable Register ; Power Up High ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination ; Location assigned by ; Load ; Output Enable Source ; Output Enable Group ;
-+------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
-; f    ; D3    ; 1        ; 0            ; 12           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-+------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Output Pins                                                                                                                                                                                                                                                                                                                           ;
++---------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
+; Name    ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Output Register ; Output Enable Register ; Power Up High ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination ; Location assigned by ; Load ; Output Enable Source ; Output Enable Group ;
++---------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
+; f       ; E5    ; 1        ; 0            ; 12           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; f-check ; D3    ; 1        ; 0            ; 12           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
++---------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 
 
 +-----------------------------------------------------------+
@@ -259,7 +260,7 @@ The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experimen
 ; I/O Bank ; Usage           ; VCCIO Voltage ; VREF Voltage ;
 +----------+-----------------+---------------+--------------+
 ; 1        ; 6 / 35 ( 17 % ) ; 3.3V          ; --           ;
-; 2        ; 1 / 43 ( 2 % )  ; 3.3V          ; --           ;
+; 2        ; 2 / 43 ( 5 % )  ; 3.3V          ; --           ;
 ; 3        ; 1 / 39 ( 3 % )  ; 3.3V          ; --           ;
 ; 4        ; 0 / 41 ( 0 % )  ; 3.3V          ; --           ;
 +----------+-----------------+---------------+--------------+
@@ -299,11 +300,11 @@ The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experimen
 ; B11      ; 133        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B12      ; 134        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B13      ; 131        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; B14      ; 127        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; B14      ; 127        ; 2        ; a                                        ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B15      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; B16      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; C1       ; 2          ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; C2       ; 3          ; 1        ; a                                        ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; C2       ; 3          ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; C3       ; 0          ; 1        ; ~ASDO~ / RESERVED_INPUT_WITH_WEAK_PULLUP ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; On           ;
 ; C4       ; 161        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C5       ; 160        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -320,7 +321,7 @@ The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experimen
 ; C16      ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; D1       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; D2       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
-; D3       ; 8          ; 1        ; f                                        ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; D3       ; 8          ; 1        ; f-check                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; D4       ; 9          ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; D5       ; 4          ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; D6       ; 158        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -336,9 +337,9 @@ The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experimen
 ; D16      ; 121        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; E1       ; 11         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; E2       ; 12         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; E3       ; 6          ; 1        ; d                                        ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; E3       ; 6          ; 1        ; b                                        ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; E4       ; 7          ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; E5       ; 5          ; 1        ; b                                        ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; E5       ; 5          ; 1        ; f                                        ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; E6       ; 168        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; E7       ;            ; 2        ; VCCIO2                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; E8       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -352,7 +353,7 @@ The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experimen
 ; E16      ; 122        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; F1       ; 17         ; 1        ; ^DATA0                                   ; input  ;              ;         ; --         ;                 ; --       ; --           ;
 ; F2       ; 15         ; 1        ; #TCK                                     ; input  ;              ;         ; --         ;                 ; --       ; --           ;
-; F3       ; 10         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; F3       ; 10         ; 1        ; d                                        ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; F4       ; 1          ; 1        ; ~nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; On           ;
 ; F5       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; F6       ; 169        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -371,12 +372,12 @@ The pin-out file can be found in C:/Users/shimizu/Documents/GitHub/2CS_Experimen
 ; G3       ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; G4       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; G5       ; 19         ; 1        ; ^nCE                                     ;        ;              ;         ; --         ;                 ; --       ; --           ;
-; G6       ; 156        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; G6       ; 156        ; 2        ; c                                        ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; G7       ; 157        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; G8       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; G9       ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; G10      ; 138        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; G11      ; 139        ; 2        ; c                                        ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; G11      ; 139        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; G12      ; 117        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; G13      ; 118        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; G14      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -572,22 +573,23 @@ Note: User assignments will override these defaults. The user specified values a
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M4Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
-; |1-5-before                ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 5    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |1-5-before         ; work         ;
+; |1-5-before                ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 6    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |1-5-before         ; work         ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+-------------------------------------------------------------------------------+
-; Delay Chain Summary                                                           ;
-+------+----------+---------------+---------------+-----------------------+-----+
-; Name ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ;
-+------+----------+---------------+---------------+-----------------------+-----+
-; f    ; Output   ; --            ; --            ; --                    ; --  ;
-; a    ; Input    ; (0) 336 ps    ; (0) 336 ps    ; --                    ; --  ;
-; d    ; Input    ; (6) 4510 ps   ; (6) 4510 ps   ; --                    ; --  ;
-; c    ; Input    ; (6) 4554 ps   ; (6) 4554 ps   ; --                    ; --  ;
-; b    ; Input    ; (6) 4510 ps   ; (6) 4510 ps   ; --                    ; --  ;
-+------+----------+---------------+---------------+-----------------------+-----+
++----------------------------------------------------------------------------------+
+; Delay Chain Summary                                                              ;
++---------+----------+---------------+---------------+-----------------------+-----+
+; Name    ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ;
++---------+----------+---------------+---------------+-----------------------+-----+
+; f       ; Output   ; --            ; --            ; --                    ; --  ;
+; a       ; Input    ; (0) 322 ps    ; (0) 322 ps    ; --                    ; --  ;
+; f-check ; Output   ; --            ; --            ; --                    ; --  ;
+; d       ; Input    ; (6) 4510 ps   ; (6) 4510 ps   ; --                    ; --  ;
+; c       ; Input    ; (6) 4554 ps   ; (6) 4554 ps   ; --                    ; --  ;
+; b       ; Input    ; (6) 4510 ps   ; (6) 4510 ps   ; --                    ; --  ;
++---------+----------+---------------+---------------+-----------------------+-----+
 
 
 +---------------------------------------------------+
@@ -597,7 +599,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------+-------------------+---------+
 ; a                   ;                   ;         ;
 ; d                   ;                   ;         ;
-;      - inst~0       ; 0                 ; 6       ;
+;      - inst~0       ; 1                 ; 6       ;
 ; c                   ;                   ;         ;
 ;      - inst~0       ; 0                 ; 6       ;
 ; b                   ;                   ;         ;
@@ -610,10 +612,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+------------------------+
 ; Name   ; Fan-Out                ;
 +--------+------------------------+
+; inst~0 ; 2                      ;
 ; b      ; 1                      ;
 ; c      ; 1                      ;
 ; d      ; 1                      ;
-; inst~0 ; 1                      ;
 +--------+------------------------+
 
 
@@ -623,13 +625,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Interconnect Resource Type ; Usage                ;
 +----------------------------+----------------------+
 ; Block interconnects        ; 4 / 15,666 ( < 1 % ) ;
-; C16 interconnects          ; 1 / 812 ( < 1 % )    ;
-; C4 interconnects           ; 0 / 11,424 ( 0 % )   ;
+; C16 interconnects          ; 0 / 812 ( 0 % )      ;
+; C4 interconnects           ; 2 / 11,424 ( < 1 % ) ;
 ; Direct links               ; 1 / 15,666 ( < 1 % ) ;
 ; Global clocks              ; 0 / 8 ( 0 % )        ;
 ; Local interconnects        ; 0 / 4,608 ( 0 % )    ;
-; R24 interconnects          ; 1 / 652 ( < 1 % )    ;
-; R4 interconnects           ; 1 / 13,328 ( < 1 % ) ;
+; R24 interconnects          ; 0 / 652 ( 0 % )      ;
+; R4 interconnects           ; 2 / 13,328 ( < 1 % ) ;
 +----------------------------+----------------------+
 
 
@@ -731,7 +733,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Jan 20 20:49:04 2015
+    Info: Processing started: Thu Jan 22 16:49:12 2015
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off 1-5-before -c 1-5-before
 Info: Selected device EP2C5AF256A7 for design "1-5-before"
 Info: Low junction temperature is -40 degrees C
@@ -744,9 +746,10 @@ Info: Fitter converted 3 user pins into dedicated programming pins
     Info: Pin ~ASDO~ is reserved at location C3
     Info: Pin ~nCSO~ is reserved at location F4
     Info: Pin ~LVDS41p/nCEO~ is reserved at location N14
-Critical Warning: No exact pin location assignment(s) for 5 pins of 5 total pins
+Critical Warning: No exact pin location assignment(s) for 6 pins of 6 total pins
     Info: Pin f not assigned to an exact location on the device
     Info: Pin a not assigned to an exact location on the device
+    Info: Pin f-check not assigned to an exact location on the device
     Info: Pin d not assigned to an exact location on the device
     Info: Pin c not assigned to an exact location on the device
     Info: Pin b not assigned to an exact location on the device
@@ -762,7 +765,7 @@ Extra Info: Finished moving registers into I/O cells, Multiplier Blocks, and RAM
 Info: Finished register packing
     Extra Info: No registers were packed into other blocks
 Info: Statistics of I/O pins that need to be placed that use the same VCCIO and VREF, before I/O pin placement
-    Info: Number of I/O pins in group: 5 (unused VREF, 3.3V VCCIO, 4 input, 1 output, 0 bidirectional)
+    Info: Number of I/O pins in group: 6 (unused VREF, 3.3V VCCIO, 4 input, 2 output, 0 bidirectional)
         Info: I/O standards used: 3.3-V LVTTL.
 Info: I/O bank details before I/O pin placement
     Info: Statistics of I/O banks
@@ -784,14 +787,15 @@ Info: The Fitter performed an Auto Fit compilation.  Optimizations were skipped 
     Info: Optimizations that may affect the design's routability were skipped
     Info: Optimizations that may affect the design's timing were skipped
 Info: Started post-fitting delay annotation
-Warning: Found 1 output pins without output pin load capacitance assignment
+Warning: Found 2 output pins without output pin load capacitance assignment
     Info: Pin "f" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "f-check" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
 Info: Delay annotation completed successfully
 Warning: The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info: Quartus II Fitter was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 228 megabytes
-    Info: Processing ended: Tue Jan 20 20:49:05 2015
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Thu Jan 22 16:49:14 2015
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
 
