@@ -1,0 +1,12 @@
+|2-3-before
+f <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a => inst16.IN0
+a => inst19.IN0
+a => inst10.IN0
+b => inst20.IN0
+c => inst17.IN0
+c => inst14.IN0
+c => inst21.IN0
+d => inst22.IN0
+
+
