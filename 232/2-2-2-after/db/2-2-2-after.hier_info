@@ -1,0 +1,8 @@
+|2-2-2-after
+f <= inst.DB_MAX_OUTPUT_PORT_TYPE
+x => inst4.IN0
+x => inst5.IN0
+z => inst4.IN1
+z => inst6.IN0
+
+
